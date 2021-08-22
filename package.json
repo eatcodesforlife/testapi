@@ -7,9 +7,10 @@
   "description": "a fake api",
   "main": "server.js",
   "scripts": {
+    "json:server" : "json-server --watch server.json",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "cris a",
   "license": "ISC",
   "dependencies": {
     "heroku": "^7.57.0",
